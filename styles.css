@@ -17,10 +17,6 @@ body,#wrapper{
 	height:auto;
 }
 
-#skills{
-	max-height:500px;
-	overflow-y:scroll;
-}
 
 
 
@@ -40,7 +36,13 @@ body,#wrapper{
 :::::::::::::::::::::::::::::::MEDIUM DEVICES (tablets, 768px and up):::::::::::::::::::::::::::::::::::::::::::::
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
 @media (min-width: 768px) {
-	
+	#about{
+		height:600px;
+	}
+
+	#skills{
+		overflow-y:scroll;
+	}
 }
 
 
