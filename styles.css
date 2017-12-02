@@ -13,11 +13,12 @@ body,#wrapper{
 
 /*div{border:1px solid black} /*for testing*/
 
-#about>div:nth-child(1){
+#about>div{
 	height:auto;
 }
 
-
+.list-group-item{/*need to shorten these*/
+}
 
 
 
@@ -37,7 +38,7 @@ body,#wrapper{
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
 @media (min-width: 768px) {
 	#about{
-		height:600px;
+		height:700px;
 	}
 
 	#skills{
