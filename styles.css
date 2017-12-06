@@ -20,12 +20,13 @@ body,#wrapper{
 
 .parallax>img{
 	display:block;
-	height:100%;
+	width:100%;
 }
 /*:::::::::::::::END PARALLAX::::::::::::::*/
 
 #main-img{
 	height:100%;
+	background-color: #EAF6FA;
 }
 
 
@@ -48,7 +49,17 @@ nav{
 .list-group-item{/*need to shorten these*/
 }
 
+#portfolio-header, #portfolio{
+	background-color:#31353A;
+}
 
+#transition{
+	background-color:#2D3F51;
+}
+
+#contact{
+	background-color:#2D3F51;
+}
 
 /*:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 ::::::::::::::::::::::::::::SMALL DEVICES(landscape phones, 576px and up)::::::::::::::::::::::::::::::::::::::::
