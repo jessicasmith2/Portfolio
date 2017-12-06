@@ -10,6 +10,9 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+	
+	<!--Parallax-->
+	<link rel="stylesheet" type="text/css" href="parallax2.css">
 	  
 	<!-----CSS - Load after other CSS files----->
 	<link rel="stylesheet" type="text/css" href="styles.css">
@@ -25,13 +28,35 @@
 	
   <body>
 	<div id="wrapper"> <!--:::::::::::::::::::::::::::::::WRAPPER:::::::::::::::::::::::::::::::::::::::::::::-->
-    <div class="container-fluid">
-		<div class="row">
-			<div class="col-sm-12">MAIN IMAGE GOES HERE</div>
+		<!--PARALLAX
+		<div class="row parallax">
+			<img class="col-12" src="images/back-mtn-01.svg" alt="parallax art piece">
 		</div>
 		
+		<div class="row parallax">
+			<img class="col-12" src="images/2back-mtn-01.svg" alt="parallax art piece">
+		</div>
 		
+		<div class="row parallax">
+			<img class="col-12" src="images/3back-mtn-01.svg" alt="parallax art piece">
+		</div>
 		
+		<div class="row parallax">
+			<img class="col-12" src="images/4back-mtn-01.svg" alt="parallax art piece">
+		</div>
+		
+		<div class="row parallax">
+			<img class="col-12" src="images/front-mtn-01.svg" alt="parallax art piece">
+		</div>
+		
+		<div class="row parallax">
+			<img class="col-12" src="images/name-01.svg" alt="parallax art piece">
+		</div>
+		-->
+		
+		<div class="row">
+			<img id="main-img" class="col-12" src="images/Jessica Portfolio Final-01.png" alt="main img">
+		</div>
 		
 		
 		<!--::::::::::::::::::NAVIGATION BAR:::::::::::::::::::::::::::::-->
@@ -49,13 +74,14 @@
 			</div>
 		  </div>
 		</nav>
+		<!--::::::::::::::::::END NAVIGATION BAR:::::::::::::::::::::::::::::-->
 		
 		
 		
 		<!--::::::::::::::::::ABOUT:::::::::::::::::-->
 		<div class="row" id="about">
 			<!--::::::DEESCRIPTION:::::::-->
-			<div class="col-md-6">
+			<div id="desc" class="col-md-6">
 				<div class="row">
 					<img class="mx-auto" src="images/headshot.png" alt="Jessica Smith">
 					
@@ -65,11 +91,11 @@
 			
 			
 			<!--:::::SKILLS:::::::-->
-			<div class="col-md-6" id="skills">
+			<div id="skills" class="col-md-6">
 				<div class="col-12">
 					<p class="text-center">Technical Skills</p>
 					<ul class="list-group">
-					  <li class="list-group-item">HTML5</li>
+					  <li class="list-group-item"><div>HTML5</div></li>
 					  <li class="list-group-item">CSS3</li>
 					  <li class="list-group-item">JavaScript</li>
 					  <li class="list-group-item">jQuery</li>
@@ -107,13 +133,7 @@
 		</div>
 
 		<div class="row">
-			<img class="col-12 col-md-6 col-lg-4 col-xl-3" src="images/placeholder.png" alt="gallery item">
-			<img class="col-12 col-md-6 col-lg-4 col-xl-3" src="images/placeholder.png" alt="gallery item">
-			<img class="col-12 col-md-6 col-lg-4 col-xl-3" src="images/placeholder.png" alt="gallery item">
-			<img class="col-12 col-md-6 col-lg-4 col-xl-3" src="images/placeholder.png" alt="gallery item">
-			<img class="col-12 col-md-6 col-lg-4 col-xl-3" src="images/placeholder.png" alt="gallery item">
-			<img class="col-12 col-md-6 col-lg-4 col-xl-3" src="images/placeholder.png" alt="gallery item">
-			<img class="col-12 col-md-6 col-lg-4 col-xl-3" src="images/placeholder.png" alt="gallery item">
+			
 		</div>
 
 
@@ -145,7 +165,8 @@
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
-	</div>
-	</div><!--::::::::::::::::::::::::::::::::::::::::::::::WRAPPER:::::::::::::::::::::::::::::::::::::::::::::-->
+	<!-----MY PROGRAMMING----->
+	<script type="text/javascript" src="jqjs.js"></script>
+	<!--::::::::::::::::::::::::::::::::::::::::::::::WRAPPER:::::::::::::::::::::::::::::::::::::::::::::-->
   </body>
 </html>

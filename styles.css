@@ -13,8 +13,36 @@ body,#wrapper{
 
 /*div{border:1px solid black} /*for testing*/
 
+/*:::::::::::::::PARALLAX::::::::::::::*/
+.parallax{
+	position:absolute;
+}
+
+.parallax>img{
+	display:block;
+	height:100%;
+}
+/*:::::::::::::::END PARALLAX::::::::::::::*/
+
+#main-img{
+	height:100%;
+}
+
+
+nav{
+	background-color:#24313D;
+}
+
 #about>div{
 	height:auto;
+}
+
+#desc{
+	background-color:#F4EAEC;
+}
+
+#skills{
+	background-color:#637E89;
 }
 
 .list-group-item{/*need to shorten these*/
