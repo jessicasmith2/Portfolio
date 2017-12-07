@@ -24,18 +24,41 @@ body,#wrapper{
 }
 /*:::::::::::::::END PARALLAX::::::::::::::*/
 
+
+
 #main-img{
 	height:100%;
 	background-color: #EAF6FA;
 }
 
 
+
+
+/*:::::::::::::::::NAV BAR::::::::::::::::*/
 nav{
 	background-color:#24313D;
 }
 
+.navbar-brand, .nav-item{
+	color:white!important;
+}
+/*:::::::::::::::::END NAV BAR::::::::::::::::*/
+
+
+
+/*::::::::::::::::::ABOUT:::::::::::::::::::::*/
 #about>div{
 	height:auto;
+	padding:10%;
+}
+
+#headshot{
+	display:block;
+	margin:0 auto;
+	width:70%;
+	height:70%;
+	max-width:300px;
+	margin-bottom:30px;
 }
 
 #desc{
@@ -46,26 +69,118 @@ nav{
 	background-color:#637E89;
 }
 
-.list-group-item{/*need to shorten these*/
+/*:::::::KEYFRAMES FOR SKILLS:::::::*/
+@keyframes skill-100 {
+    from {width:0%;}
+    to {width:100%;}
 }
 
+.skill-100{
+	animation-name: skill-100;
+}
+
+@keyframes skill-80 {
+    from {width:0%;}
+    to {width:80%;}
+}
+
+.skill-80{
+	animation-name: skill-80;
+}
+
+@keyframes skill-60 {
+    from {width:0%;}
+    to {width:60%;}
+}
+
+.skill-60{
+	animation-name:skill-60;
+}
+
+.list-group-item{
+	margin-top:10px;
+	border-radius:4px;
+	padding:0px;
+	border:0px solid white;
+	white-space: nowrap;
+}
+
+.list-group-item>div{
+	height:100%;
+	background-color:blue;
+	border-radius:4px;
+	padding:10px;
+	animation-duration:3s;
+	animation-fill-mode:forwards;
+	text-overflow: visible;
+}
+
+#skills>div>p:nth-of-type(2){
+	margin-top:35px;
+}
+/*::::::::::::::::::END ABOUT:::::::::::::::::::::*/
+
+
+
+/*:::::::::::::::::PORTFOLIO:::::::::::::::::::*/
 #portfolio-header, #portfolio{
 	background-color:#31353A;
+	color:white;
 }
 
+#portfolio{
+	padding:0px 2.5%;
+}
+/*:::::::::::::::::END PORTFOLIO:::::::::::::::::::*/
+
+
+
+/*:::::::::::::::::TRANSITION:::::::::::::::::::*/
 #transition{
 	background-color:#2D3F51;
 }
+/*:::::::::::::::::END TRANSITION:::::::::::::::::::*/
 
+
+
+/*:::::::::::::::::CONTACT::::::::::::::::::*/
 #contact{
 	background-color:#2D3F51;
+	color:white;
 }
+/*:::::::::::::::::CONTACT::::::::::::::::::*/
+
+
 
 /*:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 ::::::::::::::::::::::::::::SMALL DEVICES(landscape phones, 576px and up)::::::::::::::::::::::::::::::::::::::::
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
 @media (min-width: 576px) {
-	
+
+/*::::::::::::::::::ABOUT:::::::::::::::::::::*/
+#about>div{
+	height:auto;
+	padding:5%;
+}
+
+#headshot{
+	display:block;
+	margin:0 auto;
+	width:10%;
+	height:10%;
+	margin-bottom:30px;
+}
+
+#desc{
+	background-color:#F4EAEC;
+}
+
+#skills{
+	background-color:#637E89;
+}
+/*::::::::::::::::::END ABOUT:::::::::::::::::::::*/
+
+
 }
 
 

@@ -14,9 +14,9 @@
 	<!--Parallax-->
 	<link rel="stylesheet" type="text/css" href="parallax2.css">
 	  
-	<!-----CSS - Load after other CSS files----->
+	<!--CSS - Load after other CSS files-->
 	<link rel="stylesheet" type="text/css" href="styles.css">
-	<!-----FONTS----->
+	<!--FONTS-->
 	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
   </head>
 	
@@ -28,6 +28,7 @@
 	
   <body>
 	<div id="wrapper">
+		<div class="container-fluid">
 		<!--:::::::::::::::::::::::::::::::WRAPPER:::::::::::::::::::::::::::::::::::::::::::::-->
 		<!--PARALLAX
 		<div class="row parallax">
@@ -61,12 +62,12 @@
 		
 		
 		<!--::::::::::::::::::NAVIGATION BAR:::::::::::::::::::::::::::::-->
-		<nav class="navbar sticky-top navbar-toggleable-sm navbar-expand-md navbar-light bg-faded" role="navigation">
+		<nav class="row navbar sticky-top navbar-toggleable-sm navbar-expand-md navbar-light bg-faded" role="navigation">
 		  <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
 			<span class="navbar-toggler-icon"></span>
 		  </button>
 			<a class="navbar-brand" href="#">Jessica Smith</a>
-		  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+		    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
 			<div class="navbar-nav">
 			  <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
 			  <a class="nav-item nav-link" href="#about">About</a>
@@ -82,11 +83,11 @@
 		<!--::::::::::::::::::ABOUT:::::::::::::::::-->
 		<div class="row" id="about">
 			<!--::::::DEESCRIPTION:::::::-->
-			<div id="desc" class="col-md-6">
+			<div id="desc" class="col-md-6 align-items-center">
 				<div class="row">
-					<img class="mx-auto" src="images/headshot.png" alt="Jessica Smith">
+					<img id="headshot" class="col-12 rounded-circle" src="images/headshot.png" alt="Jessica Smith">
 					
-					<p>Jessica is a web designer and developer residing in Vancouver, WA. While specializing in web design and development, Jessica has a range of hands-on experience from a life-long passion in computers, resulting in a quick-learning and tech-savvy nature embellished with experience from coding, graphics, and game design to building her own custom, powerful PCs. Whether projects happen in a group or individual setting, Jessica enjoys thinking of creative ideas and avenues to explore and invests her time and pride into both her work and team dynamics.</p>
+					<p class="col-12">Jessica is a web designer and developer residing in Vancouver, WA. While specializing in web design and development, Jessica has a range of hands-on experience from a long time of passion in computers, resulting in a quick-learning and tech-savvy nature embellished with experience from coding, graphics, and game design to building her own custom, powerful PCs. Whether projects happen in a group or individual setting, Jessica enjoys thinking of creative ideas and avenues to explore and investing her time and pride into both work and team dynamics.</p>
 				</div>
 			</div>
 			
@@ -96,19 +97,22 @@
 				<div class="col-12">
 					<p class="text-center">Technical Skills</p>
 					<ul class="list-group">
-					  <li class="list-group-item"><div>HTML5</div></li>
-					  <li class="list-group-item">CSS3</li>
-					  <li class="list-group-item">JavaScript</li>
-					  <li class="list-group-item">jQuery</li>
-					  <li class="list-group-item">PHP</li>
-					  <li class="list-group-item">MySQL</li>
-					  <li class="list-group-item">Bootstrap</li>
-					  <li class="list-group-item">WordPress</li>
-					  <li class="list-group-item">Adobe Dreamweaver</li>
-					  <li class="list-group-item">Adobe Illustrator</li>
-					  <li class="list-group-item">Adobe Photoshop</li>
-					  <li class="list-group-item">Adobe InDesign</li>
-					  <li class="list-group-item">Drawing Tablets</li>
+					  <li class="list-group-item"><div class="skill-100">HTML5</div></li>
+					  <li class="list-group-item"><div class="skill-100">CSS3</div></li>
+					  <li class="list-group-item"><div class="skill-100">JavaScript</div></li>
+					  <li class="list-group-item"><div class="skill-100">jQuery</div></li>
+					  <li class="list-group-item"><div class="skill-60">PHP</div></li>
+					  <li class="list-group-item"><div class="skill-60">MySQL</div></li>
+					  <li class="list-group-item"><div class="skill-60">C#</div></li>
+					  <li class="list-group-item"><div class="skill-60">SEO</div></li>
+					  <li class="list-group-item"><div class="skill-80">Bootstrap</div></li>
+					  <li class="list-group-item"><div class="skill-80">WordPress</div></li>
+					  <li class="list-group-item"><div class="skill-60">Unity</div></li>
+					  <li class="list-group-item"><div class="skill-100">Adobe Dreamweaver</div></li>
+					  <li class="list-group-item"><div class="skill-100">Adobe Illustrator</div></li>
+					  <li class="list-group-item"><div class="skill-80">Adobe Photoshop</div></li>
+					  <li class="list-group-item"><div class="skill-80">Adobe InDesign</div></li>
+					  <li class="list-group-item"><div class="skill-80">Drawing Tablet</div></li>
 					</ul>
 
 					<p class="text-center">Essential Skills</p>
@@ -135,28 +139,28 @@
 
 		<div id="portfolio" class="row">
 			<div class="col-xs-12 col-md-6 col-lg-4 col-xl-3">
-			sadf
+			image
 			</div>
 			<div class="col-xs-12 col-md-6 col-lg-4 col-xl-3">
-			sadf
+			image
 			</div>
 			<div class="col-xs-12 col-md-6 col-lg-4 col-xl-3">
-			sadf
+			image
 			</div>
 			<div class="col-xs-12 col-md-6 col-lg-4 col-xl-3">
-			sadf
+			image
 			</div>
 			<div class="col-xs-12 col-md-6 col-lg-4 col-xl-3">
-			sadf
+			image
 			</div>
 			<div class="col-xs-12 col-md-6 col-lg-4 col-xl-3">
-			sadf
+			image
 			</div>
 			<div class="col-xs-12 col-md-6 col-lg-4 col-xl-3">
-			sadf
+			image
 			</div>
 			<div class="col-xs-12 col-md-6 col-lg-4 col-xl-3">
-			sadf
+			image
 			</div>
 		</div>
 
@@ -181,7 +185,7 @@
 		
 		
 		
-		
+		</div>
 		</div>
 		
 
@@ -190,7 +194,7 @@
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
-	<!-----MY PROGRAMMING----->
+	<!--MY PROGRAMMING-->
 	<script type="text/javascript" src="jqjs.js"></script>
 	<!--::::::::::::::::::::::::::::::::::::::::::::::WRAPPER:::::::::::::::::::::::::::::::::::::::::::::-->
   </body>
