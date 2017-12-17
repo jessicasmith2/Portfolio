@@ -28,7 +28,7 @@ body,#wrapper{
 
 #main-img{
 	height:100%;
-	background-color: #EAF6FA;
+	background-color:#24313D;
 }
 
 
@@ -103,16 +103,23 @@ nav{
 	padding:0px;
 	border:0px solid white;
 	white-space: nowrap;
+	color:white;
+	letter-spacing:2px;
+	font-weight:300;
 }
 
 .list-group-item>div{
 	height:100%;
-	background-color:blue;
+	background-color:#66C6B8;
 	border-radius:4px;
 	padding:10px;
 	animation-duration:3s;
 	animation-fill-mode:forwards;
 	text-overflow: visible;
+}
+
+#skills>div>p{
+	font-size:1.8em!important;
 }
 
 #skills>div>p:nth-of-type(2){
@@ -169,14 +176,6 @@ nav{
 	width:10%;
 	height:10%;
 	margin-bottom:30px;
-}
-
-#desc{
-	background-color:#F4EAEC;
-}
-
-#skills{
-	background-color:#637E89;
 }
 /*::::::::::::::::::END ABOUT:::::::::::::::::::::*/
 
