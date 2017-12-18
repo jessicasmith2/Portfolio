@@ -138,6 +138,10 @@ nav{
 #portfolio{
 	padding:0px 2.5%;
 }
+
+.ekko-lightbox-nav-overlay{
+	display:none;
+}
 /*:::::::::::::::::END PORTFOLIO:::::::::::::::::::*/
 
 
@@ -219,4 +223,9 @@ nav{
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
 @media (min-width: 1200px) {
 	
+}
+
+/* CSS used here will be applied after bootstrap.css */
+.ekko-lightbox-nav-overlay a {
+    color: goldenrod;
 }
